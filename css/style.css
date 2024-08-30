@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: teal;
+    padding: 10px;
+}
+
+header .container ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .container ul li {
+    list-style: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+header .container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .container ul li a:hover {
+    color: rgb(187, 175, 175);
+    text-decoration: underline;
+}
+main section {
+    background-image: url(https://img.freepik.com/premium-photo/podium_1160677-31496.jpg?w=826);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 10%;
+}
+
+
+aside .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    height: 20vh;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.mian-container {
+    flex: 5;
+    display: flex;
+}
+.section {
+    flex:4 ;
+    padding: 40px;
+
+}
+
+.aside {
+    flex: 1;
+}
+
+.box {
+    margin-top: 15%;
+    padding: 10px;
+    width: 70%;
+    height: 20vh;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about {
+    padding: 17%;
+    width: 65%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.table1 {
+    margin-top: 100px;
+}
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: start;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
